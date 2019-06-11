@@ -34,7 +34,7 @@ public class BookArray
     public static void displayArray()
     {
         for(int x = 0; x < bookArray.length; ++x)
-            JOptionPane.showMessageDialog(null, "Book #" + (x + 1) + ": " + 
+            JOptionPane.showMessageDialog(null, "Book #" + (x + 1) + ": " +
                     bookArray[x].toString());
     }
 }
